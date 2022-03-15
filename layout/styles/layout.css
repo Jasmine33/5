@@ -292,7 +292,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Rows */
-.row0{color:#474747; background-color:#551111;}
+.row0{color:#ebdfdf; background-color:#000000;}
 .row1, .row1 a{color:#FFFFFF; background-color:#95103B;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
@@ -310,9 +310,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Search Form */
-#searchform{color:rgba(255,255,255,.5); background:#AA5670;}
-#searchform:hover{color:#95103B;}
-#searchform input{color:#FFFFFF; background:#AA5670;}
+#searchform{color:rgba(255,255,255,.5); background:#ebdfdf;}
+#searchform:hover{color:#86847e;}
+#searchform input{color:#FFFFFF; background:#ebdfdf;}
 #searchform button{color:#FFFFFF; background:transparent;}
 
 
@@ -347,8 +347,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#D5ACBB; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(149,16,59,.5);/* #95103B */ border-color:rgba(0,0,0,.6);}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#ebdfdf; background-color:inherit;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(91, 84, 134, 0.5);/* #95103B */ border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#D5ACBB; background-color:#95103B;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
 
