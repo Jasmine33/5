@@ -292,7 +292,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Rows */
-.row0{color:#ebdfdf; background-color:#000000;}
+.row0{color:#180f06; background-color:#362d22c7;}
 .row1, .row1 a{color:#FFFFFF; background-color:#95103B;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
@@ -312,8 +312,8 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 /* Search Form */
 #searchform{color:rgba(255,255,255,.5); background:#ebdfdf;}
 #searchform:hover{color:#86847e;}
-#searchform input{color:#FFFFFF; background:#ebdfdf;}
-#searchform button{color:#FFFFFF; background:transparent;}
+#searchform input{color:#180f06; background:#ebdfdf;}
+#searchform button{color:#180f06; background:transparent;}
 
 
 /* Page Intro */
@@ -347,7 +347,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#ebdfdf; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#180f06; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(91, 84, 134, 0.5);/* #95103B */ border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#D5ACBB; background-color:#95103B;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
@@ -431,7 +431,7 @@ table a, #comments a{background-color:inherit;}
 	#searchform{display:none;}
 
 	#pageintro article{max-width:none;}
-	#pageintro .heading{font-size:1rem;}
+	#pageintro .heading{font-size:2.4rem;}
 	#pageintro p:first-of-type{font-size:1rem;}
 
 	.sectiontitle{max-width:none;}
