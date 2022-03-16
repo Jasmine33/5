@@ -173,7 +173,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
 #mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:900; font-size:16px; line-height:10px;}
 
-/* Top Navigation */
+/* Top Navigation /*
 #mainav{display:block; float:right;}
 /*#mainav ul{text-transform:uppercase;}*/
 #mainav ul ul{z-index:9999; position:absolute; width:200px; text-transform:none; text-align:left;}
@@ -273,7 +273,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#474747; background-color:#FFFFFF;}
-a{color:#e9983b; font-weight: bold;}
+a{color:#e9983b;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
