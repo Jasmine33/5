@@ -72,9 +72,11 @@ label{margin-bottom:5px;}
 
 /* Generalise
 --------------------------------------------------------------------------------------------------------------- */
-h1, .heading{margin:0 0 20px 0; font-size:28px; line-height:normal; font-weight:normal; text-transform:capitalize;}
+h1, .heading{margin:0 0 20px 0; font-size:30px; line-height:normal; font-weight:normal; text-transform:capitalize;}
 .heading.nospace{margin-bottom:0;}
-h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:capitalize;}
+h2, .heading{margin:0 0 15px 0; font-size:24px; line-height:normal; font-weight:normal; text-transform:capitalize;}
+.heading.nospace{margin-bottom:0;}
+h3, h4, h5, h6, .heading{margin:0 0 10px 0; font-size:20px; line-height:normal; font-weight:normal; text-transform:capitalize;}
 .heading.nospace{margin-bottom:0;}
 
 address{font-style:normal; font-weight:normal;}

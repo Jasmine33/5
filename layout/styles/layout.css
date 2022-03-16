@@ -59,11 +59,11 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0;}
+#pageintro{padding:180px 0;}
 
 #pageintro article{display:block; max-width:90%; margin:0 auto; text-align:center;}
-#pageintro .heading{margin-bottom:35px; font-size:2.8rem;}
-#pageintro p:first-of-type{margin:0 0 35px 0; text-transform:uppercase; font-size:rem; letter-spacing:1.2px;}
+#pageintro .heading{margin-bottom:35px; font-size:2.5rem;}
+#pageintro p:first-of-type{margin:0 0 35px 0; text-transform:uppercase; font-size:2rem; letter-spacing:1.2px;}
 #pageintro footer{margin-top:50px;}
 
 
@@ -171,7 +171,7 @@ Delete it completely to stop fading
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav, #breadcrumb, .sidebar nav{line-height:normal;}
-#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:800; font-size:16px; line-height:8px;}
+#mainav .drop::after, #mainav li li .drop::after, #breadcrumb li a::after, .sidebar nav a::after{position:absolute; font-family:"Font Awesome\ 5 Free"; font-weight:800; font-size:14px; line-height:8px;}
 
 /* Top Navigation */
 #mainav{display:block; float:right;}
@@ -292,11 +292,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Rows */
-.row0{color:#f8ebd8; background-color:#3f2d24;}
-.row1, .row1 a{color:#FFFFFF; background-color:#95103B;}
-.row2{color:#474747; background-color:#F4F4F4;}
-.row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#f8ebd8; background-color:#927a5a;}
+.row0{color:#e9d9c3; background-color:#3f2d24;}
+.row1, .row1 a{color:#000000; background-color:#fcf3ec;}
+.row2{color:#000000; background-color:#ccc6c4;}
+.row3{color:#000000; background-color:#fcf3ec;}
+.row4{color:#000000; background-color:#cec7bc;}
 .row5, .row5 a{color:#C1C2C4; background-color:#2A2D34;}
 
 .gradient{color:#FFFFFF; background:linear-gradient(to bottom right, #8F9297, #C1C2C4);}
@@ -317,7 +317,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Page Intro */
-#pageintro{color:#FFFFFF;}
+#pageintro{color:#eeece8;}/*DAWN color*/
 
 
 /* Content Area */
@@ -347,9 +347,9 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#f8ebd8; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:rgb(255, 255, 255); background-color:#6e57305b;/* #95103B */ border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#000000; background-color:#6e5730;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#e9d9c3; background-color:inherit;}
+#mainav li li a, #mainav .active li a{color:rgb(255, 255, 255); background-color:#66472eb6;/* #95103B */ border-color:rgba(0,0,0,.6);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#000000; background-color:#8d6846;}
 #mainav form select{color:#000000; background-color:#FFFFFF;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
@@ -454,5 +454,5 @@ table a, #comments a{background-color:inherit;}
 	.pushright li{margin-right:0;}
 
 	.font-x2{font-size:1.4rem;}
-	.font-x3{font-size:1.6rem;}
+	.font-x3{font-size:1.2rem;}
 }
