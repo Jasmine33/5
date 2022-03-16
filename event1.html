@@ -31,21 +31,9 @@ Licence URI: https://www.os-templates.com/template-terms
       <nav id="mainav">
       <ul class="clear">
         <li><a href="index.html">Home</a></li>
-        <li><a class="drop" href="#">&nbsp Events</a>
+        <li><a class="drop" href="#">&nbsp Webinar</a>
           <ul>
             <li class="active"><a href="event1.html">Event 1<br>(April 11, 2022)</a></li>
-            <li><a href="event2.html">Event 2<br>(April 12, 2022)</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#">&nbsp Presentations</a>
-          <ul>
-              <li><a href="tcad.html">TCAD</a></li>
-              <li><a href="dac.html">DAC</a></li>
-              <li><a href="iccad.html">ICCAD</a></li>
-              <li><a href="date.html">DATE</a></li>
-              <li><a href="aspdac.html">ASP-DAC</a></li>
-              <li><a href="codes.html">CODES</a></li>
-              <li><a href="micro.html">MICRO</a></li>
           </ul>
         </li>
       </ul>
@@ -70,60 +58,183 @@ Licence URI: https://www.os-templates.com/template-terms
 <div class="wrapper bgded overlay" style="background-image:url('images/11.png');">
   <div id="breadcrumb" class="hoc clear"> 
     <!-- ################################################################################################ -->
-		<h6 class="heading">Event 1</h6>
+		<a style="font-size:40px">The Best of EDA Reserach in 2021<a>
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="#">Event</a></li>
-			<li><a href="#">Event 1</a></li>
+			<li><a href="#">Webinar</a></li>
+			<li><a href="#">Event 1 (April 11, 2022)</a></li>
 		</ul>
     <!-- ################################################################################################ -->
   </div>
 </div>
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear">
-    <div>
-      <div class="one_quarter first">
-        <h6 style="font-size: 20px">Talk 1</h6>
-      </div>
-      <div class="three_quarter">
-        <h6>Hardware/Software Co-Exploration of Neural Architectures</h6>
-        <p>We propose a novel hardware and software co-exploration framework for efficient neural architecture search (NAS). Different from existing hardware-aware NAS which assumes a fixed hardware design and explores the NAS space only, our framework simultaneously explores both the architecture search space and the hardware design space to identify the best neural architecture and hardware pairs that maximize both test accuracy and hardware efficiency. Such a practice greatly opens up the design freedom and pushes forward the Pareto frontier between hardware efficiency and test accuracy for better design tradeoffs. The framework iteratively performs a twolevel (fast and slow) exploration. Without lengthy training, the fast exploration can effectively fine-tune hyperparameters and prune inferior architectures in terms of hardware specifications, which significantly accelerates the NAS process. Then, the slow exploration trains candidates on a validation set and updates a controller using the reinforcement learning to maximize the expected accuracy together with the hardware efficiency. In this article, we demonstrate that the co-exploration framework can effectively expand the search space to incorporate models with high accuracy, and we theoretically show that the proposed two-level optimization can efficiently prune inferior solutions to better explore the search space. The experimental results on ImageNet show that the co-exploration NAS can find solutions with the same accuracy, 35.24% higher throughput, 54.05% higher energy efficiency, compared with the hardware-aware NAS.</p>
-      </div>
-    </div>
-    <hr>
-    <div>
-      <img class="imgr borderedbox inspace-5" src="images/WeiwenJiang.jpg" alt="">
-			<h6 class="heading">Weiwen Jiang</h6>
-			<h7>University of Notre Dame</h7><br>
-			<h7>wjiang8@gmu.edu</h7>
-			<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.
-       </p>
-    </div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<div class="wrapper row2">
-  <section class="hoc container clear">
-    <div>
-      <div class="one_quarter first">
-        <h6 style="font-size: 20px">Talk 2</h6>
-      </div>
-      <div class="three_quarter">
-        <h6>DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement</h6>
-		    <p>Placement for very large-scale integrated (VLSI) circuits is one of the most important steps for design closure. We propose a novel GPU-accelerated placement framework DREAMPlace, by casting the analytical placement problem equivalently to training a neural network. Implemented on top of a widely adopted deep learning toolkit PyTorch, with customized key kernels for wirelength and density computations, DREAMPlace can achieve around 40× speedup in global placement without quality degradation compared to the state-of-the-art multithreaded placer RePlAce. We believe this work shall open up new directions for revisiting classical EDA problems with advancements in AI hardware and software.</p>
-      </div>
-    </div>
-    <hr>
-    <div>
-      <img class="imgr borderedbox inspace-5" src="images/YiboLin.jpg" alt="">
+<div>
+  <main class="hoc container clear"> 
+	<div class="sidebar one_quarter first">
+		<h6>Event 1</h6>
+		<nav class="sdb_holder">
+			<ul>
+				<li><a href="#overview">Overview</a></li>
+				<li><a href="#talk1">Talk 1</a></li>
+				<li><a href="#talk2">Talk 2</a></li>
+				<li><a href="#talk3">Talk 3</a></li>
+				<li><a href="#talk4">Talk 4</a></li>
+				<li><a href="#talk5">Talk 5</a></li>
+				<li><a href="#talk6">Talk 6</a></li>
+				<li><a href="#talk7">Talk 7</a></li>
+				<li><a href="#talk8">Talk 8</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="three_quarter">
+		<div class="wrapper row3" id="overview">
+			<div>
+				<h6 style="font-size: 20px">Overview</h6>
+			</div>
+		</div>
+		<div class="wrapper row2 talk 1" id="talk1">
+			<div>
+				<div class="one_quarter first">
+					<h6 style="font-size: 20px">Talk 1</h6>
+				</div>
+				<div class="three_quarter">
+					<h6>Hardware/Software Co-Exploration of Neural Architectures</h6>
+					<p>We propose a novel hardware and software co-exploration framework for efficient neural architecture search (NAS). Different from existing hardware-aware NAS which assumes a fixed hardware design and explores the NAS space only, our framework simultaneously explores both the architecture search space and the hardware design space to identify the best neural architecture and hardware pairs that maximize both test accuracy and hardware efficiency. Such a practice greatly opens up the design freedom and pushes forward the Pareto frontier between hardware efficiency and test accuracy for better design tradeoffs. The framework iteratively performs a twolevel (fast and slow) exploration. Without lengthy training, the fast exploration can effectively fine-tune hyperparameters and prune inferior architectures in terms of hardware specifications, which significantly accelerates the NAS process. Then, the slow exploration trains candidates on a validation set and updates a controller using the reinforcement learning to maximize the expected accuracy together with the hardware efficiency. In this article, we demonstrate that the co-exploration framework can effectively expand the search space to incorporate models with high accuracy, and we theoretically show that the proposed two-level optimization can efficiently prune inferior solutions to better explore the search space. The experimental results on ImageNet show that the co-exploration NAS can find solutions with the same accuracy, 35.24% higher throughput, 54.05% higher energy efficiency, compared with the hardware-aware NAS.</p>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<img class="imgr borderedbox inspace-5" src="images/WeiwenJiang.jpg" alt="">
+				<h6 class="heading">Weiwen Jiang</h6>
+				<h7>University of Notre Dame</h7><br>
+				<h7>wjiang8@gmu.edu</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+				<br>
+				<img class="imgr borderedbox inspace-5" src="images/WeiwenJiang.jpg" alt="">
+				<h6 class="heading">Weiwen Jiang</h6>
+				<h7>University of Notre Dame</h7><br>
+				<h7>wjiang8@gmu.edu</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+			</div>
+		</div>
+		<!-- ################################################################################################ -->
+		<br>
+		<div class="wrapper row3 talk 2" id="talk2">
+			<div>
+				<div class="one_quarter first">
+					<h6 style="font-size: 20px">Talk 2</h6>
+				</div>
+				<div class="three_quarter">
+					<h6>DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement</h6>
+					<p>Placement for very large-scale integrated (VLSI) circuits is one of the most important steps for design closure. We propose a novel GPU-accelerated placement framework DREAMPlace, by casting the analytical placement problem equivalently to training a neural network. Implemented on top of a widely adopted deep learning toolkit PyTorch, with customized key kernels for wirelength and density computations, DREAMPlace can achieve around 40× speedup in global placement without quality degradation compared to the state-of-the-art multithreaded placer RePlAce. We believe this work shall open up new directions for revisiting classical EDA problems with advancements in AI hardware and software.</p>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<img class="imgr borderedbox inspace-5" src="images/YiboLin.jpg" alt="">
 				<h6 class="heading">Yibo Lin</h6>
 				<h7>Peking University</h7><br>
 				<h7>yibolin@pku.edu.cn</h7>
 				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
-    </div>
-    </div>
-  </section>
+				<br>
+				<img class="imgr borderedbox inspace-5" src="images/YiboLin.jpg" alt="">
+				<h6 class="heading">Yibo Lin</h6>
+				<h7>Peking University</h7><br>
+				<h7>yibolin@pku.edu.cn</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+			</div>
+		</div>
+		<!-- ################################################################################################ -->
+		<br>
+		<div class="wrapper row2 talk3" id="talk3">
+			<div>
+				<div class="one_quarter first">
+					<h6 style="font-size: 20px">Talk 3</h6>
+				</div>
+				<div class="three_quarter">
+					<h6>Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration</h6>
+					<p>DNN accelerators are often developed and evaluated in isolation without considering the cross-stack, system-level effects in real-world environments. This makes it difficult to appreciate the impact of Systemon-Chip (SoC) resource contention, OS overheads, and programming-stack inefficiencies on overall performance/energy-efficiency. To address this challenge, we present Gemmini, an open-source, full-stack DNN accelerator generator. Gemmini generates a wide design-space of efficient ASIC accelerators from a flexible architectural template, together with flexible programming stacks and full SoCs with shared resources that capture system-level effects. Gemmini-generated accelerators have also been fabricated, delivering up to three orders-of-magnitude speedups over high-performance CPUs on various DNN benchmarks.</p>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<img class="imgr borderedbox inspace-5" src="images/shao.jpg" alt="">
+				<h6 class="heading">Sophia Shao</h6>
+				<h7>University of California, Berkeley</h7><br>
+				<h7>ysshao@berkeley.edu</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+				<br>
+				<img class="imgr borderedbox inspace-5" src="images/shao.jpg" alt="">
+				<h6 class="heading">Sophia Shao</h6>
+				<h7>University of California, Berkeley</h7><br>
+				<h7>ysshao@berkeley.edu</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+			</div>
+		</div>
+		<!-- ################################################################################################ -->
+		<br>
+		<div class="wrapper row3 talk4" id="talk4">
+			<div>
+				<div class="one_quarter first">
+					<h6 style="font-size: 20px">Talk 4</h6>
+				</div>
+				<div class="three_quarter">
+					<h6>BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework</h6>
+					<p>The microarchitecture design of a processor has been increasingly difficult due to the large design space and time-consuming verification flow. Previously, researchers rely on prior knowledge and cycle-accurate simulators to analyze the performance of different microarchitecture designs but lack sufficient discussions on methodologies to strike a good balance between power and performance. This work proposes an automatic framework to explore microarchitecture designs of the RISCV Berkeley Out-of-Order Machine (BOOM), termed as BOOM-Explorer, achieving a good trade-off on power and performance. Firstly, the framework utilizes an advanced microarchitecture-aware active learning (MicroAL) algorithm to generate a diverse and representative initial design set. Secondly, a Gaussian process model with deep kernel learning functions (DKL-GP) is built to characterize the design space. Thirdly, correlated multi-objective Bayesian optimization is leveraged to explore Pareto-optimal designs. Experimental results show that BOOM-Explorer can search for designs that dominate previous arts and designs developed by senior engineers in terms of power and performance within a much shorter time.</p>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<img class="imgr borderedbox inspace-5" src="images/BeiYu.jpg" alt="">
+				<h6 class="heading">Bei Yu</h6>
+				<h7>The Chinese University of Hong Kong</h7><br>
+				<h7>byu@cse.cuhk.edu.hk</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+				<br>
+				<img class="imgr borderedbox inspace-5" src="images/BeiYu.jpg" alt="">
+				<h6 class="heading">Bei Yu</h6>
+				<h7>The Chinese University of Hong Kong</h7><br>
+				<h7>byu@cse.cuhk.edu.hk</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+			</div>
+		</div>
+		<!-- ################################################################################################ -->
+		<div class="wrapper row2 talk5" id="talk5">
+			<div>
+				<div class="one_quarter first">
+					<h6 style="font-size: 20px">Talk 5</h6>
+				</div>
+				<div class="three_quarter">
+					<h6>BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework</h6>
+					<p>The microarchitecture design of a processor has been increasingly difficult due to the large design space and time-consuming verification flow. Previously, researchers rely on prior knowledge and cycle-accurate simulators to analyze the performance of different microarchitecture designs but lack sufficient discussions on methodologies to strike a good balance between power and performance. This work proposes an automatic framework to explore microarchitecture designs of the RISCV Berkeley Out-of-Order Machine (BOOM), termed as BOOM-Explorer, achieving a good trade-off on power and performance. Firstly, the framework utilizes an advanced microarchitecture-aware active learning (MicroAL) algorithm to generate a diverse and representative initial design set. Secondly, a Gaussian process model with deep kernel learning functions (DKL-GP) is built to characterize the design space. Thirdly, correlated multi-objective Bayesian optimization is leveraged to explore Pareto-optimal designs. Experimental results show that BOOM-Explorer can search for designs that dominate previous arts and designs developed by senior engineers in terms of power and performance within a much shorter time.</p>
+				</div>
+			</div>
+			<hr>
+			<div>
+				<img class="imgr borderedbox inspace-5" src="images/shao.jpg" alt="">
+				<h6 class="heading">Bei Yu</h6>
+				<h7>The Chinese University of Hong Kong</h7><br>
+				<h7>byu@cse.cuhk.edu.hk</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+				<br>
+				<img class="imgr borderedbox inspace-5" src="images/shao.jpg" alt="">
+				<h6 class="heading">Sophia Shao</h6>
+				<h7>University of California, Berkeley</h7><br>
+				<h7>ysshao@berkeley.edu</h7>
+				<p>Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning. She has a Ph.D. in Electrical and Computer Engineering from Rice University. She has received a number of awards, including the MIT Technology Review 35 under 35 award, the Best Ph.D. Thesis Award at Rice and a Gold Medal in the National Math Olympiad in Iran. Her work has been covered in various media outlets including MIT Technology Review and IEEE Spectrum.Azalia Mirhoseini is a Senior Research Scientist at Google Brain. She is the co-founder/tech-lead of the Machine Learning for Systems Team at Brain where they focus on deep reinforcement learning based approaches to solve problems in computer systems and metalearning.</p>
+			</div>
+		</div>
+		<!-- ################################################################################################ -->
+		<div class="wrapper row3 talk6" id="talk6">
+		</div>
+		<!-- ################################################################################################ -->
+		<div class="wrapper row2 talk7" id="talk7">
+		</div>
+		<!-- ################################################################################################ -->
+		<div class="wrapper row3 talk8" id="talk8">
+		</div>
+	</div>
+  </main>
 </div>
 <!-- ################################################################################################ -->
 <div class="wrapper row0">
