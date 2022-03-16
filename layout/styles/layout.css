@@ -46,7 +46,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #searchform{display:block; position:relative; float:right; height:58px; line-height:1; z-index:999;}
 
-#searchform::after{display:block; height:58px; line-height:58px; padding:0 15px; font-size:20px; font-family:"Font Awesome\ 5 Free"; font-weight:900; content:"\f002"/* fa-search */;}
+#searchform::after{display:block; height:58px; line-height:58px; padding:0 15px; font-size:16px; font-family:"Font Awesome\ 5 Free"; font-weight:800; content:"\f002"/* fa-search */;}
 #searchform:hover::after, #searchform button{cursor:pointer;}
 #searchform > div{position:absolute; top:58px; right:0; width:280px; visibility:hidden; opacity:0/* Required for transition effect */;}
 #searchform:hover > div{visibility:visible; opacity:1/* Required for transition effect */;}
@@ -59,11 +59,11 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:180px 0;}
+#pageintro{padding:200px 0;}
 
 #pageintro article{display:block; max-width:90%; margin:0 auto; text-align:center;}
-#pageintro .heading{margin-bottom:30px; font-size:4rem;}
-#pageintro p:first-of-type{margin:0 0 30px 0; text-transform:uppercase; font-size:2rem; letter-spacing:5px;}
+#pageintro .heading{margin-bottom:35px; font-size:3.6rem;}
+#pageintro p:first-of-type{margin:0 0 35px 0; text-transform:uppercase; font-size:2rem; letter-spacing:1.5px;}
 #pageintro footer{margin-top:50px;}
 
 
@@ -124,9 +124,9 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:80px 0;}
+#footer{padding:30px 0;}
 
-#footer .heading{margin-bottom:40px; font-size:1.2rem;}
+#footer .heading{margin-bottom:30px; font-size:2rem;}
 
 #footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
@@ -176,8 +176,8 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 /* Top Navigation */
 #mainav{display:block; float:right;}
 #mainav ul{text-transform:uppercase;}
-#mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; text-align:left;}
-#mainav ul ul ul{left:180px; top:0;}
+#mainav ul ul{z-index:9999; position:absolute; width:200px; text-transform:none; text-align:left;}
+#mainav ul ul ul{left:200px; top:0;}
 #mainav li{display:block; float:left; position:relative; margin:0; padding:0;}
 #mainav li:last-child{margin-right:0;}
 #mainav li li{width:100%; margin:0;}
@@ -273,7 +273,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#474747; background-color:#FFFFFF;}
-a{color:#95103B;}
+a{color:#e9983b; font-weight: bold;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -292,11 +292,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Rows */
-.row0{color:#180f06; background-color:#362d22c7;}
+.row0{color:#f8ebd8; background-color:#443334;}
 .row1, .row1 a{color:#FFFFFF; background-color:#95103B;}
 .row2{color:#474747; background-color:#F4F4F4;}
 .row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#C1C2C4; background-color:#323639;}
+.row4{color:#f8ebd8; background-color:#927a5a;}
 .row5, .row5 a{color:#C1C2C4; background-color:#2A2D34;}
 
 .gradient{color:#FFFFFF; background:linear-gradient(to bottom right, #8F9297, #C1C2C4);}
@@ -310,10 +310,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Search Form */
-#searchform{color:rgba(255,255,255,.5); background:#ebdfdf;}
-#searchform:hover{color:#86847e;}
-#searchform input{color:#180f06; background:#ebdfdf;}
-#searchform button{color:#180f06; background:transparent;}
+#searchform{color:#443334; background:#f8ebd8;}
+#searchform:hover{color:#000000;}
+#searchform input{color:#000000; background:#f8ebd8;}
+#searchform button{color:#000000; background:transparent;}
 
 
 /* Page Intro */
@@ -335,7 +335,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 
 
 /* Footer */
-#footer .heading{color:#000000;}
+#footer .heading{color:#f8ebd8;}
 #footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
 
 #footer input, #footer button{border-color:transparent;}
@@ -347,10 +347,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#180f06; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(91, 84, 134, 0.5);/* #95103B */ border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#D5ACBB; background-color:#95103B;}
-#mainav form select{color:#474747; background-color:#FFFFFF;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#f8ebd8; background-color:inherit;}
+#mainav li li a, #mainav .active li a{color:rgb(255, 255, 255); background-color:#6e57305b;/* #95103B */ border-color:rgba(0,0,0,.6);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#000000; background-color:#6e5730; font-weight:bold;}
+#mainav form select{color:#000000; background-color:#FFFFFF;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{color:#95103B;}
