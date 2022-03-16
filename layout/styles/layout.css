@@ -175,7 +175,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
 #mainav{display:block; float:right;}
-#mainav ul{text-transform:uppercase;}
+/*#mainav ul{text-transform:uppercase;}*/
 #mainav ul ul{z-index:9999; position:absolute; width:200px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:200px; top:0;}
 #mainav li{display:block; float:left; position:relative; margin:0; padding:0;}
