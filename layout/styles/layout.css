@@ -109,6 +109,10 @@ File: Layout CSS
 /* Sidebar */
 .container .sidebar{}
 
+.container .sidebar .asd{
+	position: relative;
+}
+
 .sidebar .sdb_holder{margin-bottom:50px;}
 .sidebar .sdb_holder:last-child{margin-bottom:0;}
 
