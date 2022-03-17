@@ -89,7 +89,7 @@ File: Layout CSS
 .overview article{display:block; position:relative; padding:0 0 0 65px;}
 .overview article *{margin:0; padding:0;}
 .overview article > a > i{display:inline-block; position:absolute; top:0; left:0; width:60px; overflow:hidden; line-height:1; font-size:42px;}
-.overview article .heading, .overview article p{margin-bottom:20px;}
+.overview article .heading, .overview article p{margin-bottom:15px;}
 
 /* Comments */
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
@@ -231,6 +231,11 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
 
+/* Menu */
+#menu{z-index:999; display:inline-block; position:fixed; visibility:hidden; left:10px; top:50px; width:58pt; height:260px; line-height:28x; font-size:20px; text-align:center; opacity:.2;}
+#menu i{display:block; width:100%; height:100%; line-height:inherit;}
+#menu.visible{visibility:visible; opacity:.5;}
+#menu:hover{opacity:1;}
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */
@@ -298,7 +303,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 .row0{color:#e9d9c3; background-color:#3f2d24;}
 .row1, .row1 a{color:#000000; background-color:#fcf3ec;}
 .row2{color:#000000; background-color:#ccc6c4;}
-.row3{color:#000000; background-color:#fcf3ec;}
+.row3{color:#000000; background-color:#f0e1ca;}
 .row4{color:#000000; background-color:#cec7bc;}
 .row5, .row5 a{color:#C1C2C4; background-color:#2A2D34;}
 
@@ -365,7 +370,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 .pagination .current *{color:#FFFFFF; background-color:#95103B;}
 
 #backtotop{color:#FFFFFF; background-color:#95103B;}
-
+#menu{color:#000000; background-color:#4b381c;}
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}

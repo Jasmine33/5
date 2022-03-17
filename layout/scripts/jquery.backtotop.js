@@ -20,3 +20,20 @@ jQuery(window).scroll(function () {
         jQuery("#backtotop").removeClass("visible");
     }
 });
+
+
+jQuery(window).scroll(function () {
+    if (jQuery(window).scrollTop() > 150) {
+        jQuery("#menu").addClass("visible");
+    } else {
+        jQuery("#menu").removeClass("visible");
+    }
+});
+
+jQuery("#talk1-click").click(function () {
+    jQuery("body,html").animate({
+        scrollTop:$('#talk1').offset().top
+    }, 600);        
+});
+
+
