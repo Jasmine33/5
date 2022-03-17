@@ -461,6 +461,6 @@ table a, #comments a{background-color:inherit;}
 	.inline li{display:block; margin-bottom:10px;}
 	.pushright li{margin-right:0;}
 
-	.font-x2{font-size:1.4rem;}
-	.font-x3{font-size:1.2rem;}
+	.font-x2{font-size:1.2rem;}
+	.font-x3{font-size:1.4rem;}
 }
