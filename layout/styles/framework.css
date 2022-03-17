@@ -54,10 +54,10 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 .imgover:hover::before, .imgover:hover::after{opacity:1;}
 
 
-/* Fonts
+/* Fonts            
 --------------h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}------------------------------------------------------------------------------------------------- */
-body, input, textarea, select{font-family:"Adobe Clean", sans-serif;}
-h1, h2, h3, h4, h5, h6, .heading{font-family:"Lucida Sans", sans-serif;}
+body, input, textarea, select{font-family:"Trebuchet MS", Verdana, "Times New Roman", Tahoma ;}
+h1, h2, h3, h4, h5, h6, .heading{font-family: Georgia, "Comic Sans MS"; }
 
 
 /* Forms
