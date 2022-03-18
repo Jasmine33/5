@@ -430,10 +430,9 @@ table a, #comments a{background-color:inherit;}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
 
 	#header{}
-	#logo{vertical-align : middle;}
 	/* #mainav{float:none; width:100%; padding:15px 0;} */
 	#searchform{display:none;}
-	#mainav{margin-left:70px; float:none; width:80%;}
+	#mainav{float:right; width:70%;}
 	#pageintro article{max-width:none;}
 	#pageintro .heading{font-size:2.4rem;}
 	#pageintro p:first-of-type{font-size:1.2rem;}
