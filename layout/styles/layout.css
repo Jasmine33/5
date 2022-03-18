@@ -181,7 +181,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 /* Top Navigation */
 #mainav{display:block; float:right;}
 /*#mainav ul{text-transform:uppercase;}*/
-#mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; text-align:left;}
+#mainav ul ul{z-index:9999; position:absolute; width:200px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:200px; top:0;}
 #mainav li{display:block; float:left; position:relative; margin:0; padding:0;}
 #mainav li:last-child{margin-right:0;}
@@ -232,12 +232,6 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #backtotop i{display:block; width:100%; height:100%; line-height:inherit;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
-
-/* Menu */
-#menu{z-index:999; display:inline-block; position:fixed; visibility:visible;width:58pt; height:260px; line-height:28x; font-size:20px; text-align:center; }
-#menu i{display:block; width:100%; height:100%; line-height:inherit;}
-#menu.visible{visibility:visible; }
-#menu:hover{opacity:1;}
 
 /* Tables
 --------------------------------------------------------------------------------------------------------------- */
