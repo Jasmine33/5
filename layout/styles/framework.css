@@ -56,7 +56,7 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 
 /* Fonts            
 --------------h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}------------------------------------------------------------------------------------------------- */
-body, input, textarea, select{font-family:"Trebuchet MS", Verdana, "Times New Roman", Tahoma ;}
+body, input, textarea, select{font-family:"Trebuchet MS", Verdana, "Times New Roman", Tahoma;}
 h1, h2, h3, h4, h5, h6, .heading{font-family: Georgia, "Comic Sans MS"; }
 
 
@@ -105,6 +105,9 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:inline-block; float:left; margin:0 0 0 4.21052%; list-style:none;}
 
 .first{margin-left:0; clear:left;}
+/* original 
+.one_quarter{width:21.8421%;} 
+.three_quarter{width:73.94736%;}*/
 .one_quarter{width:21.8421%;}
 .one_third{width:30.52631%;}
 .one_half, .two_quarter{width:47.89473%;}
