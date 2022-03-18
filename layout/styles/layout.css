@@ -365,7 +365,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#95103B;}
 
-#backtotop{color:#FFFFFF; background-color:#95103B;}
+#backtotop{color:#FFFFFF; background-color:#724108;}
 /* #menu{color:#000000; background-color:#4b381c;} */
 
 /* Tables + Comments */
