@@ -437,7 +437,7 @@ table a, #comments a{background-color:inherit;}
 	#pageintro article{max-width:none;}
 	#pageintro .heading{font-size:2.4rem;}
 	#pageintro p:first-of-type{font-size:1.2rem;}
-
+	#pp{vertical-align : middle;}
 	.sectiontitle{max-width:none;}
 
 	.overview > li:nth-last-child(-n+3){margin-bottom:30px;}
