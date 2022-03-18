@@ -459,10 +459,9 @@ table a, #comments a{background-color:inherit;}
 @media screen and (max-width:650px){
 	.scrollable{display:block; width:100%; margin:0 0 30px 0; padding:0 0 15px 0; overflow:auto; overflow-x:scroll;}
 	.scrollable table{margin:0; padding:0; white-space:nowrap;}
-
+	#header{width:100%;}
 	.inline li{display:block; margin-bottom:10px;}
 	.pushright li{margin-right:0;}
-	#header{width:30%;}
 	.font-x2{font-size:1.2rem;}
 	.font-x3{font-size:1.4rem;}
 }
