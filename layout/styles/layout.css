@@ -48,7 +48,7 @@ File: Layout CSS
 
 #searchform::after{display:block; height:58px; line-height:58px; padding:0 15px; font-size:16px; font-family:"Font Awesome\ 5 Free"; font-weight:800; content:"\f002"/* fa-search */;}
 #searchform:hover::after, #searchform button{cursor:pointer;}
-#searchform > div{position:absolute; top:58px; right:0; width:280px; visibility:hidden; opacity:0/* Required for transition effect */;}
+#searchform > div{position:absolute; top:58px; right:0; width:220px; visibility:hidden; opacity:0/* Required for transition effect */;}
 #searchform:hover > div{visibility:visible; opacity:1/* Required for transition effect */;}
 #searchform form{display:block; position:relative;}
 #searchform form *{border:none;}
@@ -181,7 +181,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 /* Top Navigation */
 #mainav{display:block; float:right;}
 /*#mainav ul{text-transform:uppercase;}*/
-#mainav ul ul{z-index:9999; position:absolute; width:200px; text-transform:none; text-align:left;}
+#mainav ul ul{z-index:9999; position:absolute; width:180px; text-transform:none; text-align:left;}
 #mainav ul ul ul{left:200px; top:0;}
 #mainav li{display:block; float:left; position:relative; margin:0; padding:0;}
 #mainav li:last-child{margin-right:0;}
@@ -439,7 +439,7 @@ table a, #comments a{background-color:inherit;}
 
 	/* #mainav{float:none; width:100%; padding:15px 0;} */
 	#searchform{display:none;}
-	#mainav{float:none; width:100%; padding:15px 0;}
+	#mainav{display:none;}
 	#pageintro article{max-width:none;}
 	#pageintro .heading{font-size:2.4rem;}
 	#pageintro p:first-of-type{font-size:1.2rem;}
